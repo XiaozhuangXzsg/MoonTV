@@ -1,4 +1,4 @@
-const {Redis}=require('@upstash/redis');
+const {Redis}=require(require.resolve('@upstash/redis',{paths:[process.cwd()]}));
 const crypto=require('node:crypto');
 const zlib=require('node:zlib');
 (async()=>{

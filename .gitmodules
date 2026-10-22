@@ -1,0 +1,3 @@
+[submodule "moontvplus"]
+	path = moontvplus
+	url = https://github.com/mtvpls/MoonTVPlus.git
