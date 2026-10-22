@@ -6,11 +6,21 @@ on:
       - main
     paths-ignore:
       - '**.md'
+      - '.gitmodules'
+      - 'moontvplus'
+      - 'scripts/upgrade-backup.cjs'
+      - '.github/workflows/sync.yml'
+      - '.github/workflows/docker-image.yml'
   pull_request:
     branches:
       - main
     paths-ignore:
       - '**.md'
+      - '.gitmodules'
+      - 'moontvplus'
+      - 'scripts/upgrade-backup.cjs'
+      - '.github/workflows/sync.yml'
+      - '.github/workflows/docker-image.yml'
   workflow_dispatch:
 
 concurrency:

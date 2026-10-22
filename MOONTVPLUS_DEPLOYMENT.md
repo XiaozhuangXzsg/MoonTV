@@ -30,3 +30,5 @@ To upgrade again, fetch the upstream repository inside `moontvplus`, check out a
 ## Extra services
 
 WebGPU super-resolution depends on browser/GPU support. AI, private libraries, notifications and similar integrations require their own configuration. A built-in WebSocket watch-room server and persistent server-side offline downloads cannot run inside Vercel Functions; use the documented external services for those features.
+
+The legacy six-hour MoonTV synchronization workflow is retired because Vercel now builds the pinned MoonTVPlus submodule. Changes limited to this upgrade do not publish the legacy root Docker image.
